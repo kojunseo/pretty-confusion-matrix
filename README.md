@@ -39,6 +39,7 @@ cm.set_classname(["Lion", "Tiger"]) # You can set the class name.
 cm.set_title("Lion or Tiger?") # You can set the title.
 ```
 * the input of the confusion_matrix must be two-dimensional array
+* Python list or numpy array are both allowed
 * You can set the name of the class and title.
 
 3. define palette object
