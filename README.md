@@ -21,8 +21,8 @@ cm.set_title("Retinal Specialist2")
 pset.draw(cm, "place_to_save.png")
 ```
 
-## Result of confusion matrix
-<img src="./reference.png" width=800>
+## Result of generated confusion matrix
+<img src="./reference.png" width=400>
 
 
 ## How to Use? Explain more detail
