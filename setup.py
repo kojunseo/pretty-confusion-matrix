@@ -1,16 +1,16 @@
 from setuptools import setup, find_packages
 
-setup(name='tf_alloc', 
+setup(name='prettycm', 
       # 프로젝트 명을 입력합니다.
-      version='0.0.4', 
+      version='0.0.1', 
       # 프로젝트 버전을 입력합니다.
-      url='https://github.com/KorKite/tf_alloc', 
+      url='https://github.com/KorKite/pretty-confusion-matrix', 
       # 홈페이지 주소를 입력합니다.
       author='Kojunseo', 
       # 프로젝트 담당자 혹은 작성자를 입력합니다.
       author_email='sta06167@naver.com', 
       # 프로젝트 담당자 혹은 작성자의 이메일 주소를 입력합니다.
-      description='Simplication of GPU allocation for Tensorflow2', 
+      description='Prettier confusion matrix than matplotlib', 
       # 프로젝트에 대한 간단한 설명을 입력합니다.
       packages=find_packages(), 
     #   # 기본 프로젝트 폴더 외에 추가로 입력할 폴더를 입력합니다.
