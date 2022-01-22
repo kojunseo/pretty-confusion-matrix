@@ -78,3 +78,8 @@ print(cm)
 ### 3. Pallet Function
 - [ ] Text Size control
 - [ ] Cleaning the code
+
+
+## Contribute to project
+1. Pull requests after you modify code.
+2. Make more color presets.
