@@ -1,5 +1,8 @@
 .gitignore
 .gitattributes
+setup.py
+setup.cfg
+MANIFEST.info
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
