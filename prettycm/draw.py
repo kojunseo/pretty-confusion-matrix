@@ -1,5 +1,4 @@
 import os
-from readline import add_history
 from PIL import Image, ImageDraw, ImageFont
 from .presets import possible_presets, get_preset
 

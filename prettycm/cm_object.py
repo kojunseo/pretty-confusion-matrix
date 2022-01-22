@@ -1,4 +1,3 @@
-from pydoc import classname
 import numpy as np
 
 class confusion_matrix:

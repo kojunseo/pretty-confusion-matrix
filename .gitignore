@@ -2,6 +2,7 @@
 .gitattributes
 setup.py
 setup.cfg
+pcm
 MANIFEST.info
 
 # Byte-compiled / optimized / DLL files
