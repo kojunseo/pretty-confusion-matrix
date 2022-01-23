@@ -26,8 +26,7 @@ pset.draw(cm, "place_to_save.png")
 ```
 
 ## 📦 Result of generated confusion matrix
-<img src="./reference.png" width=400>
-
+<img width="400" alt="generated-confusion-matrix" src="https://user-images.githubusercontent.com/50725139/150660626-54afae22-bc74-4fd8-a34b-936d9ea66f01.png">
 
 ## 📰 How to Use?
 ### 1. import package from prettycm
@@ -67,7 +66,6 @@ pset.draw(confusion_matrix=cm, path="place_to_save.png")
 print(cm)
 ```
 * When you print confusion_matrix object, than python will print the confusion matrix like below
-<img src ="./cli.png" width=400>
 
 ### 6. Custom Your own color presets
 ```python
