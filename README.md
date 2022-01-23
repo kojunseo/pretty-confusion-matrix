@@ -66,6 +66,7 @@ pset.draw(confusion_matrix=cm, path="place_to_save.png")
 print(cm)
 ```
 * When you print confusion_matrix object, than python will print the confusion matrix like below
+<img width="380" alt="cli" src="https://user-images.githubusercontent.com/50725139/150660624-ed90dc6e-c852-472e-acb0-f03f8eabb58b.png">
 
 ### 6. Custom Your own color presets
 ```python
