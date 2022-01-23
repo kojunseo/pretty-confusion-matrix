@@ -8,7 +8,7 @@ colors_rgb = [
     (32,48,77),
     (21,37,63),
     (14,30,55),
-    (8,24,4)
+    (8,12,30)
 ]
 
 class preset_blue:
@@ -18,13 +18,13 @@ class preset_blue:
         self.max_num = int(max_num)
 
     def __call__(self, num):
-        idx = int((int(num)/self.max_num)*9)
+        idx = int(float(num)/self.max_num*9)
         print(idx)
         return colors_rgb[idx]
         
     def text(self, num):
         idx = int((int(num)/self.max_num)*9)
-        if idx > 5:
+        if idx > 4:
             return (255,255,255)
         else:
             return (0,0,0)

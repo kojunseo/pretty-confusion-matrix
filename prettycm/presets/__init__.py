@@ -1,9 +1,8 @@
-from .preset_blue import preset_blue
-
-possible_presets = ["blue"]
+from .presets import presets, possible_presets
+from .meta import preset_meta
 
 def get_preset(color):
-    if color == "blue":
-        return preset_blue
+    if color in possible_presets:
+        return presets(color)
     else:
         raise ValueError(f"{color} is not a possible preset.")

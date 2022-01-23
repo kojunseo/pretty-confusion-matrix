@@ -55,16 +55,16 @@ class confusion_matrix:
         string_for_return = f"{self.title}\n\n"
         for cname, data in zip(self.classnames, self.matrix):
             if self.max_classname <= 5:
-                line = f"{cname:5s}  {''.join([f'{d:8d}' for d in data])}\n\n"
+                line = f"{cname:5s}  {''.join([f'{d:8.2f}' for d in data])}\n\n"
                 spacing = 5
             elif self.max_classname <= 7:
-                line = f"{cname:7s}  {''.join([f'{d:8d}' for d in data])}\n\n"
+                line = f"{cname:7s}  {''.join([f'{d:8.2f}' for d in data])}\n\n"
                 spacing = 7
             elif self.max_classname <= 10:
-                line = f"{cname:10s}  {''.join([f'{d:8d}' for d in data])}\n\n"
+                line = f"{cname:10s}  {''.join([f'{d:8.2f}' for d in data])}\n\n"
                 spacing = 10
             else:
-                line = f"{cname:15s}  {''.join([f'{d:8d}' for d in data])}\n\n"
+                line = f"{cname:15s}  {''.join([f'{d:8.2f}' for d in data])}\n\n"
                 spacing = 15
             string_for_return+= line
 
