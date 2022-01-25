@@ -1,4 +1,5 @@
 import numpy as np
+from sklearn.metrics import confusion_matrix as skconfusion_matrix
 
 class confusion_matrix:
     """"
@@ -72,3 +73,8 @@ class confusion_matrix:
         string_for_return += line
             
         return string_for_return
+
+class confusion_matrix_by_cal(confusion_matrix):
+    def __init__(self, y_true, y_pred):
+        matrix = skconfusion_matrix(y_true=y_true, y_pred=y_pred)
+        super().__init__(matrix=matrix)

@@ -61,14 +61,18 @@ pset.draw(confusion_matrix=cm, path="place_to_save.png")
 * path: path to save
 #### Done
 
-### 5. Special Printer of Confusion Matrix
+### 5. Generate Confusion matrix object by confusion_matrix_by_cal
+* You can also generate confusion matrix object by y_pred, y_true.
+
+
+### 6. Special Printer of Confusion Matrix
 ```python
 print(cm)
 ```
 * When you print confusion_matrix object, than python will print the confusion matrix like below
 <img width="380" alt="cli" src="https://user-images.githubusercontent.com/50725139/150660624-ed90dc6e-c852-472e-acb0-f03f8eabb58b.png">
 
-### 6. Custom Your own color presets
+### 7. Custom Your own color presets
 ```python
 from prettycm import palette
 from prettycm.presets import preset_meta
