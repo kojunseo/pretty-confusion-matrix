@@ -5,6 +5,13 @@
 * However it is not so pretty. I want to make confusion matrix prettier.
 * Also, it is not easy to use. It is easy to draw confusion matrix. 
 
+## Design Contributors
+* 황동호(Dongho Hwang, [hhdh12@naver.com](hhdh12@naver.com))
+* 김다한(Dahan Kim, [dahan0811@gmail.com](dahan0811@gmail.com))
+
+## Code Contributors
+* 고준서(Junseo Ko, [Korkite](github.com/Korkite), [sta06167@naver.com](sta06167@naver.com))
+
 ## 📥 How to Install?
 ```python
 pip install prettycm
