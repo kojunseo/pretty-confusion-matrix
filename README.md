@@ -6,11 +6,11 @@
 * Also, it is not easy to use. It is easy to draw confusion matrix. 
 
 ## Design Contributors
-* 황동호 ([hhdh12@naver.com](hhdh12@naver.com))
-* 김다한 ([dahan0811@gmail.com](dahan0811@gmail.com))
+* 황동호(Dongho Hwang, [hhdh12@naver.com](hhdh12@naver.com))
+* 김다한(Dahan Kim, [dahan0811@gmail.com](dahan0811@gmail.com))
 
 ## Code Contributors
-* Junseo Ko([Korkite](github.com/Korkite), [sta06167@naver.com](sta06167@naver.com))
+* 고준서(Junseo Ko, [Korkite](github.com/Korkite), [sta06167@naver.com](sta06167@naver.com))
 
 ## 📥 How to Install?
 ```python
