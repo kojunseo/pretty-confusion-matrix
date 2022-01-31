@@ -1,7 +1,7 @@
 from .cm_object import confusion_matrix, confusion_matrix_by_cal
 from .draw import palette
 
-__version__ = "1.1.1"
+__version__ = "1.1.2"
 
 import os
 if not os.path.exists(f"{os.path.dirname(__file__)}/font"):

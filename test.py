@@ -7,7 +7,7 @@ class custom_preset(preset_meta):
         colors_rgb = [(204,244,202),(10,30,12)]
         super().__init__(max_num,colors_rgb)
 
-pset = palette(size=5, color="blue")
+pset = palette(size=5, color="purple")
 
 cm = confusion_matrix([[200,0,0,0],[0,156,8,14],[0,18,131,30],[0,60,28,75]])
 cm.set_classname(["Acute", "Non-resolving","Normal","Inactive"])
