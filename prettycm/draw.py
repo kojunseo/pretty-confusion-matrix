@@ -15,16 +15,16 @@ class palette:
         else:
             raise TypeError(f"Color parameter must be {possible_presets} or preset object")
 
-        self.title_font = ImageFont.truetype(f"{os.path.dirname(__file__)}/font/gmarket.ttf", self.pixel//30, encoding="UTF-8")
-        self.tick_font = ImageFont.truetype(f"{os.path.dirname(__file__)}/font/gmarket.ttf", self.pixel//40, encoding="UTF-8")
-        self.label_font_small = ImageFont.truetype(f"{os.path.dirname(__file__)}/font/title.ttf", self.pixel//50, encoding="UTF-8")
-        self.label_font_normal = ImageFont.truetype(f"{os.path.dirname(__file__)}/font/title.ttf", self.pixel//45, encoding="UTF-8")
-        self.data_font = ImageFont.truetype(f"{os.path.dirname(__file__)}/font/gmarket.ttf", self.pixel//35, encoding="UTF-8")
+        self.title_font = ImageFont.truetype(f"{os.path.dirname(__file__)}/static/font/gmarket.ttf", self.pixel//30, encoding="UTF-8")
+        self.tick_font = ImageFont.truetype(f"{os.path.dirname(__file__)}/static/font/gmarket.ttf", self.pixel//40, encoding="UTF-8")
+        self.label_font_small = ImageFont.truetype(f"{os.path.dirname(__file__)}/static/font/title.ttf", self.pixel//50, encoding="UTF-8")
+        self.label_font_normal = ImageFont.truetype(f"{os.path.dirname(__file__)}/static/font/title.ttf", self.pixel//45, encoding="UTF-8")
+        self.data_font = ImageFont.truetype(f"{os.path.dirname(__file__)}/static/font/gmarket.ttf", self.pixel//35, encoding="UTF-8")
 
 
     def make_font(self, max_length):
         factor = max_length*5-13
-        return ImageFont.truetype(f"{os.path.dirname(__file__)}/font/title.ttf", self.pixel//factor, encoding="UTF-8")
+        return ImageFont.truetype(f"{os.path.dirname(__file__)}/static/font/title.ttf", self.pixel//factor, encoding="UTF-8")
     
     def draw(self, confusion_matrix, path):
         img = Image.new("RGB", (self.pixel, self.pixel), (255,255,255))
@@ -78,6 +78,8 @@ class palette:
         # img = ImageDraw
 
         self.__save__(img, path)
+
+        return img
 
     def __save__(self, img, path):
         img.save(path, "PNG")
