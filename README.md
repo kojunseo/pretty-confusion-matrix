@@ -10,7 +10,7 @@
 * 김다한(Dahan Kim, [dahan0811@gmail.com](dahan0811@gmail.com))
 
 ## Code Contributors
-* 고준서(Junseo Ko, [Korkite](github.com/Korkite), [sta06167@naver.com](sta06167@naver.com))
+* 고준서(Junseo Ko, [Korkite](github.com/kojunseo), [sta06167@naver.com](sta06167@naver.com))
 
 ## 📥 How to Install?
 ```python
